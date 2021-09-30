@@ -6,7 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css?v=cb1a07a9f3231037db55aa6d81cd98f36300e703">
     <link rel="stylesheet" href="print.css">  
-	  
+
+<script>
+    (function (n, i, a, v, r, s, c, x, z) {
+        x = window.AwsNexusTelemetry = { q: [], n, i, a, v, r, c };
+        window[n] = function (c, p) {
+            x.q.push({ c, p });
+        };
+        z = document.createElement('script');
+        z.async = true;
+        z.src = s;
+        document.head.insertBefore(
+            z,
+            document.getElementsByTagName('script')[0]
+        );
+    })(
+        'nexus',
+        '20979f95-8c4c-479f-b2a2-4bb1afad38c9',
+        'auth-demo',
+        '1.0.0',
+        'us-west-2',
+        'https://d1ktxyteejjrbw.cloudfront.net/assets/rum-javascript-telemetry.js',
+        {
+            identityPoolId: 'us-west-2:628e0a9a-74fb-4af8-9301-185f36f26665',
+            guestRoleArn: 'arn:aws:iam::331919870797:role/Nexus-Monitor-us-west-2-331919870797-8860424592361-Unauth',
+            endpoint: 'https://dataplane.us-west-2.prod.rum.aws.dev',
+            sessionSampleRate: 0.1
+        }
+    );
+</script>
 	  
 <style type="text/css">
 /* latin-ext */
@@ -63,7 +91,7 @@ h2 {
         <hr>
         <section id="main_content">
 
-<h2 id="who-said-we-cant-be-best-friends">Who said we can’t be best friends </h1>
+<h2 id="who-said-we-cant-be-best-friends">Who said we can’t be best friends? </h1>
 
 <p><img src="/RUM/assets/images/alec-favale-Ivzo69e18nk-unsplash.jpg" alt="Image" 
 	style="height: 50%; width: 50%; object-fit: contain"/>
